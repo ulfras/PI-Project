@@ -1,0 +1,6 @@
+framework module Pods_Mankepri_MankepriUITests {
+  umbrella header "Pods-Mankepri-MankepriUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
