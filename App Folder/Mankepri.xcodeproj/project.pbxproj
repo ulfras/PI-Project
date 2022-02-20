@@ -1,0 +1,824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10242F8FFCFBD64F1ECF9510 /* Pods_Mankepri.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0EA5242642DAD9EB638530 /* Pods_Mankepri.framework */; };
+		5E0280E226A3541F000EC83A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0280E126A3541F000EC83A /* AppDelegate.swift */; };
+		5E0280E426A3541F000EC83A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0280E326A3541F000EC83A /* SceneDelegate.swift */; };
+		5E0280E626A3541F000EC83A /* MenuUtama.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0280E526A3541F000EC83A /* MenuUtama.swift */; };
+		5E0280E926A3541F000EC83A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E0280E726A3541F000EC83A /* Main.storyboard */; };
+		5E0280EB26A35422000EC83A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E0280EA26A35422000EC83A /* Assets.xcassets */; };
+		5E0280EE26A35422000EC83A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E0280EC26A35422000EC83A /* LaunchScreen.storyboard */; };
+		5E0280F926A35422000EC83A /* MankepriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0280F826A35422000EC83A /* MankepriTests.swift */; };
+		5E02810426A35422000EC83A /* MankepriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E02810326A35422000EC83A /* MankepriUITests.swift */; };
+		5E19BCC826CAD3CB00CE295C /* Masuk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E19BCC726CAD3CB00CE295C /* Masuk.swift */; };
+		5E26790B26E49B8D00445F15 /* CostumToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E26790A26E49B8D00445F15 /* CostumToast.swift */; };
+		5E2800A626BFCD9100F999DE /* DaftarTransaksi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2800A526BFCD9100F999DE /* DaftarTransaksi.swift */; };
+		5E70327D26B09E5E0092CEB3 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E70327C26B09E5E0092CEB3 /* CloudKit.framework */; };
+		5EE2611026A493B600CF69ED /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE2610F26A493B600CF69ED /* InfoVC.swift */; };
+		5EE2611226A4A8B600CF69ED /* TransaksiMasukVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE2611126A4A8B600CF69ED /* TransaksiMasukVC.swift */; };
+		5EE2611426A4A90100CF69ED /* PengaturanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE2611326A4A90100CF69ED /* PengaturanVC.swift */; };
+		5EE2611626A4C8C500CF69ED /* AnggaranVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE2611526A4C8C500CF69ED /* AnggaranVC.swift */; };
+		5EE2611826A4C93B00CF69ED /* LapKeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE2611726A4C93B00CF69ED /* LapKeVC.swift */; };
+		5EE2611A26A4D12B00CF69ED /* TransaksiKeluarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE2611926A4D12B00CF69ED /* TransaksiKeluarVC.swift */; };
+		A38FEE7846FB72225815EE14 /* Pods_Mankepri_MankepriUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DF159C7C4BDE09506D8A4B /* Pods_Mankepri_MankepriUITests.framework */; };
+		C43204E6CF5721C9AF34B27C /* Pods_MankepriTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F8C1CAC0614250671F4A1C /* Pods_MankepriTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E0280F526A35422000EC83A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E0280D626A3541F000EC83A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E0280DD26A3541F000EC83A;
+			remoteInfo = Mankepri;
+		};
+		5E02810026A35422000EC83A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E0280D626A3541F000EC83A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E0280DD26A3541F000EC83A;
+			remoteInfo = Mankepri;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F2A678CA6DD925252C08C73 /* Pods-MankepriTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MankepriTests.release.xcconfig"; path = "Target Support Files/Pods-MankepriTests/Pods-MankepriTests.release.xcconfig"; sourceTree = "<group>"; };
+		1F54724209918FC9D6C8599D /* Pods-MankepriTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MankepriTests.debug.xcconfig"; path = "Target Support Files/Pods-MankepriTests/Pods-MankepriTests.debug.xcconfig"; sourceTree = "<group>"; };
+		25F8C1CAC0614250671F4A1C /* Pods_MankepriTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MankepriTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		297B2CCAF0FD090750694616 /* Pods-Mankepri.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mankepri.release.xcconfig"; path = "Target Support Files/Pods-Mankepri/Pods-Mankepri.release.xcconfig"; sourceTree = "<group>"; };
+		5A4736F420207D80F631E436 /* Pods-Mankepri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mankepri.debug.xcconfig"; path = "Target Support Files/Pods-Mankepri/Pods-Mankepri.debug.xcconfig"; sourceTree = "<group>"; };
+		5E0280DE26A3541F000EC83A /* Mankepri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mankepri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E0280E126A3541F000EC83A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E0280E326A3541F000EC83A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5E0280E526A3541F000EC83A /* MenuUtama.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuUtama.swift; sourceTree = "<group>"; };
+		5E0280E826A3541F000EC83A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E0280EA26A35422000EC83A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E0280ED26A35422000EC83A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E0280EF26A35422000EC83A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E0280F426A35422000EC83A /* MankepriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MankepriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E0280F826A35422000EC83A /* MankepriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankepriTests.swift; sourceTree = "<group>"; };
+		5E0280FA26A35422000EC83A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E0280FF26A35422000EC83A /* MankepriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MankepriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E02810326A35422000EC83A /* MankepriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MankepriUITests.swift; sourceTree = "<group>"; };
+		5E02810526A35422000EC83A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E19BCC726CAD3CB00CE295C /* Masuk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Masuk.swift; sourceTree = "<group>"; };
+		5E26790A26E49B8D00445F15 /* CostumToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostumToast.swift; sourceTree = "<group>"; };
+		5E2800A526BFCD9100F999DE /* DaftarTransaksi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaftarTransaksi.swift; sourceTree = "<group>"; };
+		5E70323E26B09ADF0092CEB3 /* Mankepri.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mankepri.entitlements; sourceTree = "<group>"; };
+		5E70327C26B09E5E0092CEB3 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		5EE2610F26A493B600CF69ED /* InfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
+		5EE2611126A4A8B600CF69ED /* TransaksiMasukVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransaksiMasukVC.swift; sourceTree = "<group>"; };
+		5EE2611326A4A90100CF69ED /* PengaturanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PengaturanVC.swift; sourceTree = "<group>"; };
+		5EE2611526A4C8C500CF69ED /* AnggaranVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnggaranVC.swift; sourceTree = "<group>"; };
+		5EE2611726A4C93B00CF69ED /* LapKeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapKeVC.swift; sourceTree = "<group>"; };
+		5EE2611926A4D12B00CF69ED /* TransaksiKeluarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransaksiKeluarVC.swift; sourceTree = "<group>"; };
+		68ECE8F3AA2B2B5B1F3464D6 /* Pods-Mankepri-MankepriUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mankepri-MankepriUITests.debug.xcconfig"; path = "Target Support Files/Pods-Mankepri-MankepriUITests/Pods-Mankepri-MankepriUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		81C15427A5D7BDE0915CEE55 /* Pods-Mankepri-MankepriUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mankepri-MankepriUITests.release.xcconfig"; path = "Target Support Files/Pods-Mankepri-MankepriUITests/Pods-Mankepri-MankepriUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8B0EA5242642DAD9EB638530 /* Pods_Mankepri.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mankepri.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3DF159C7C4BDE09506D8A4B /* Pods_Mankepri_MankepriUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mankepri_MankepriUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E0280DB26A3541F000EC83A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E70327D26B09E5E0092CEB3 /* CloudKit.framework in Frameworks */,
+				10242F8FFCFBD64F1ECF9510 /* Pods_Mankepri.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E0280F126A35422000EC83A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43204E6CF5721C9AF34B27C /* Pods_MankepriTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E0280FC26A35422000EC83A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38FEE7846FB72225815EE14 /* Pods_Mankepri_MankepriUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EB774A943B200DAC27981B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A4736F420207D80F631E436 /* Pods-Mankepri.debug.xcconfig */,
+				297B2CCAF0FD090750694616 /* Pods-Mankepri.release.xcconfig */,
+				68ECE8F3AA2B2B5B1F3464D6 /* Pods-Mankepri-MankepriUITests.debug.xcconfig */,
+				81C15427A5D7BDE0915CEE55 /* Pods-Mankepri-MankepriUITests.release.xcconfig */,
+				1F54724209918FC9D6C8599D /* Pods-MankepriTests.debug.xcconfig */,
+				1F2A678CA6DD925252C08C73 /* Pods-MankepriTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5E0280D526A3541E000EC83A = {
+			isa = PBXGroup;
+			children = (
+				5E0280E026A3541F000EC83A /* Mankepri */,
+				5E0280F726A35422000EC83A /* MankepriTests */,
+				5E02810226A35422000EC83A /* MankepriUITests */,
+				5E0280DF26A3541F000EC83A /* Products */,
+				5E70327B26B09E5E0092CEB3 /* Frameworks */,
+				4EB774A943B200DAC27981B9 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		5E0280DF26A3541F000EC83A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E0280DE26A3541F000EC83A /* Mankepri.app */,
+				5E0280F426A35422000EC83A /* MankepriTests.xctest */,
+				5E0280FF26A35422000EC83A /* MankepriUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0280E026A3541F000EC83A /* Mankepri */ = {
+			isa = PBXGroup;
+			children = (
+				5E70323E26B09ADF0092CEB3 /* Mankepri.entitlements */,
+				5E6EBAEF26BB1D00000AC00B /* Pemasukan */,
+				5E6EBAF026BB1E08000AC00B /* Pengeluaran */,
+				5EE2611B26A4F98800CF69ED /* Controller */,
+				5E0280E126A3541F000EC83A /* AppDelegate.swift */,
+				5E0280E326A3541F000EC83A /* SceneDelegate.swift */,
+				5E0280E526A3541F000EC83A /* MenuUtama.swift */,
+				5E19BCC726CAD3CB00CE295C /* Masuk.swift */,
+				5E0280E726A3541F000EC83A /* Main.storyboard */,
+				5E0280EA26A35422000EC83A /* Assets.xcassets */,
+				5E0280EC26A35422000EC83A /* LaunchScreen.storyboard */,
+				5E0280EF26A35422000EC83A /* Info.plist */,
+				5E26790A26E49B8D00445F15 /* CostumToast.swift */,
+			);
+			path = Mankepri;
+			sourceTree = "<group>";
+		};
+		5E0280F726A35422000EC83A /* MankepriTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E0280F826A35422000EC83A /* MankepriTests.swift */,
+				5E0280FA26A35422000EC83A /* Info.plist */,
+			);
+			path = MankepriTests;
+			sourceTree = "<group>";
+		};
+		5E02810226A35422000EC83A /* MankepriUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E02810326A35422000EC83A /* MankepriUITests.swift */,
+				5E02810526A35422000EC83A /* Info.plist */,
+			);
+			path = MankepriUITests;
+			sourceTree = "<group>";
+		};
+		5E6EBAEF26BB1D00000AC00B /* Pemasukan */ = {
+			isa = PBXGroup;
+			children = (
+				5EE2611126A4A8B600CF69ED /* TransaksiMasukVC.swift */,
+				5E2800A526BFCD9100F999DE /* DaftarTransaksi.swift */,
+			);
+			path = Pemasukan;
+			sourceTree = "<group>";
+		};
+		5E6EBAF026BB1E08000AC00B /* Pengeluaran */ = {
+			isa = PBXGroup;
+			children = (
+				5EE2611926A4D12B00CF69ED /* TransaksiKeluarVC.swift */,
+			);
+			path = Pengeluaran;
+			sourceTree = "<group>";
+		};
+		5E70327B26B09E5E0092CEB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E70327C26B09E5E0092CEB3 /* CloudKit.framework */,
+				8B0EA5242642DAD9EB638530 /* Pods_Mankepri.framework */,
+				B3DF159C7C4BDE09506D8A4B /* Pods_Mankepri_MankepriUITests.framework */,
+				25F8C1CAC0614250671F4A1C /* Pods_MankepriTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EE2611B26A4F98800CF69ED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5EE2611526A4C8C500CF69ED /* AnggaranVC.swift */,
+				5EE2611726A4C93B00CF69ED /* LapKeVC.swift */,
+				5EE2610F26A493B600CF69ED /* InfoVC.swift */,
+				5EE2611326A4A90100CF69ED /* PengaturanVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E0280DD26A3541F000EC83A /* Mankepri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E02810826A35422000EC83A /* Build configuration list for PBXNativeTarget "Mankepri" */;
+			buildPhases = (
+				28FEED7E8B7F6341319A6569 /* [CP] Check Pods Manifest.lock */,
+				5E0280DA26A3541F000EC83A /* Sources */,
+				5E0280DB26A3541F000EC83A /* Frameworks */,
+				5E0280DC26A3541F000EC83A /* Resources */,
+				41A74192A84F03012B61B133 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mankepri;
+			productName = Mankepri;
+			productReference = 5E0280DE26A3541F000EC83A /* Mankepri.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E0280F326A35422000EC83A /* MankepriTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E02810B26A35422000EC83A /* Build configuration list for PBXNativeTarget "MankepriTests" */;
+			buildPhases = (
+				0B81628FFCE5CF2522C4D021 /* [CP] Check Pods Manifest.lock */,
+				5E0280F026A35422000EC83A /* Sources */,
+				5E0280F126A35422000EC83A /* Frameworks */,
+				5E0280F226A35422000EC83A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E0280F626A35422000EC83A /* PBXTargetDependency */,
+			);
+			name = MankepriTests;
+			productName = MankepriTests;
+			productReference = 5E0280F426A35422000EC83A /* MankepriTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E0280FE26A35422000EC83A /* MankepriUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E02810E26A35422000EC83A /* Build configuration list for PBXNativeTarget "MankepriUITests" */;
+			buildPhases = (
+				15E3E4E142B8F68695D5A04E /* [CP] Check Pods Manifest.lock */,
+				5E0280FB26A35422000EC83A /* Sources */,
+				5E0280FC26A35422000EC83A /* Frameworks */,
+				5E0280FD26A35422000EC83A /* Resources */,
+				522BFB70D0C728949131E618 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E02810126A35422000EC83A /* PBXTargetDependency */,
+			);
+			name = MankepriUITests;
+			productName = MankepriUITests;
+			productReference = 5E0280FF26A35422000EC83A /* MankepriUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E0280D626A3541F000EC83A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					5E0280DD26A3541F000EC83A = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					5E0280F326A35422000EC83A = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 5E0280DD26A3541F000EC83A;
+					};
+					5E0280FE26A35422000EC83A = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 5E0280DD26A3541F000EC83A;
+					};
+				};
+			};
+			buildConfigurationList = 5E0280D926A3541F000EC83A /* Build configuration list for PBXProject "Mankepri" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E0280D526A3541E000EC83A;
+			productRefGroup = 5E0280DF26A3541F000EC83A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E0280DD26A3541F000EC83A /* Mankepri */,
+				5E0280F326A35422000EC83A /* MankepriTests */,
+				5E0280FE26A35422000EC83A /* MankepriUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E0280DC26A3541F000EC83A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E0280EE26A35422000EC83A /* LaunchScreen.storyboard in Resources */,
+				5E0280EB26A35422000EC83A /* Assets.xcassets in Resources */,
+				5E0280E926A3541F000EC83A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E0280F226A35422000EC83A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E0280FD26A35422000EC83A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B81628FFCE5CF2522C4D021 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MankepriTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15E3E4E142B8F68695D5A04E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mankepri-MankepriUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28FEED7E8B7F6341319A6569 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mankepri-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41A74192A84F03012B61B133 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mankepri/Pods-Mankepri-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mankepri/Pods-Mankepri-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mankepri/Pods-Mankepri-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		522BFB70D0C728949131E618 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mankepri-MankepriUITests/Pods-Mankepri-MankepriUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mankepri-MankepriUITests/Pods-Mankepri-MankepriUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mankepri-MankepriUITests/Pods-Mankepri-MankepriUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E0280DA26A3541F000EC83A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2800A626BFCD9100F999DE /* DaftarTransaksi.swift in Sources */,
+				5EE2611026A493B600CF69ED /* InfoVC.swift in Sources */,
+				5E0280E626A3541F000EC83A /* MenuUtama.swift in Sources */,
+				5EE2611226A4A8B600CF69ED /* TransaksiMasukVC.swift in Sources */,
+				5EE2611426A4A90100CF69ED /* PengaturanVC.swift in Sources */,
+				5E0280E226A3541F000EC83A /* AppDelegate.swift in Sources */,
+				5EE2611A26A4D12B00CF69ED /* TransaksiKeluarVC.swift in Sources */,
+				5EE2611626A4C8C500CF69ED /* AnggaranVC.swift in Sources */,
+				5EE2611826A4C93B00CF69ED /* LapKeVC.swift in Sources */,
+				5E0280E426A3541F000EC83A /* SceneDelegate.swift in Sources */,
+				5E26790B26E49B8D00445F15 /* CostumToast.swift in Sources */,
+				5E19BCC826CAD3CB00CE295C /* Masuk.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E0280F026A35422000EC83A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E0280F926A35422000EC83A /* MankepriTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E0280FB26A35422000EC83A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E02810426A35422000EC83A /* MankepriUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E0280F626A35422000EC83A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E0280DD26A3541F000EC83A /* Mankepri */;
+			targetProxy = 5E0280F526A35422000EC83A /* PBXContainerItemProxy */;
+		};
+		5E02810126A35422000EC83A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E0280DD26A3541F000EC83A /* Mankepri */;
+			targetProxy = 5E02810026A35422000EC83A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E0280E726A3541F000EC83A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E0280E826A3541F000EC83A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E0280EC26A35422000EC83A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E0280ED26A35422000EC83A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E02810626A35422000EC83A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E02810726A35422000EC83A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E02810926A35422000EC83A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A4736F420207D80F631E436 /* Pods-Mankepri.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Mankepri/Mankepri.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UT5GP7P326;
+				INFOPLIST_FILE = Mankepri/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.penulisanilmiah.Mankepri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5E02810A26A35422000EC83A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 297B2CCAF0FD090750694616 /* Pods-Mankepri.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Mankepri/Mankepri.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UT5GP7P326;
+				INFOPLIST_FILE = Mankepri/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.penulisanilmiah.Mankepri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5E02810C26A35422000EC83A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F54724209918FC9D6C8599D /* Pods-MankepriTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UT5GP7P326;
+				INFOPLIST_FILE = MankepriTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.penulisanilmiah.MankepriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mankepri.app/Mankepri";
+			};
+			name = Debug;
+		};
+		5E02810D26A35422000EC83A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F2A678CA6DD925252C08C73 /* Pods-MankepriTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UT5GP7P326;
+				INFOPLIST_FILE = MankepriTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.penulisanilmiah.MankepriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mankepri.app/Mankepri";
+			};
+			name = Release;
+		};
+		5E02810F26A35422000EC83A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68ECE8F3AA2B2B5B1F3464D6 /* Pods-Mankepri-MankepriUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UT5GP7P326;
+				INFOPLIST_FILE = MankepriUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.penulisanilmiah.MankepriUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mankepri;
+			};
+			name = Debug;
+		};
+		5E02811026A35422000EC83A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81C15427A5D7BDE0915CEE55 /* Pods-Mankepri-MankepriUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UT5GP7P326;
+				INFOPLIST_FILE = MankepriUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.penulisanilmiah.MankepriUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mankepri;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E0280D926A3541F000EC83A /* Build configuration list for PBXProject "Mankepri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E02810626A35422000EC83A /* Debug */,
+				5E02810726A35422000EC83A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E02810826A35422000EC83A /* Build configuration list for PBXNativeTarget "Mankepri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E02810926A35422000EC83A /* Debug */,
+				5E02810A26A35422000EC83A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E02810B26A35422000EC83A /* Build configuration list for PBXNativeTarget "MankepriTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E02810C26A35422000EC83A /* Debug */,
+				5E02810D26A35422000EC83A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E02810E26A35422000EC83A /* Build configuration list for PBXNativeTarget "MankepriUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E02810F26A35422000EC83A /* Debug */,
+				5E02811026A35422000EC83A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E0280D626A3541F000EC83A /* Project object */;
+}
