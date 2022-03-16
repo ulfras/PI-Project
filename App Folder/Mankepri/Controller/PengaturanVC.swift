@@ -15,6 +15,8 @@ class PengaturanVC: UIViewController {
     //MARK: outlet
     @IBOutlet weak var kembali: UIButton!
     @IBOutlet weak var namapenggunaoutlet: UILabel!
+    @IBOutlet weak var switchBiometric: UISwitch!
+    
     var namapengguna:String = ""
     
     //MARK: DB Connector
@@ -26,6 +28,9 @@ class PengaturanVC: UIViewController {
         //MARK: - UI Desain
         //desain tombol Kembali
         kembali.layer.cornerRadius = 20.0
+        
+        //MARK: - Switch
+        switchBiometric.isOn =  UserDefaults.standard.bool(forKey: "switchState")
         
         //MARK: - Set up the database
         //openDB
@@ -84,6 +89,12 @@ class PengaturanVC: UIViewController {
         }
         
     }//Akhir viewDidLoad
+    
+    
+    //MARK: -
+    @IBAction func saveSwitchPressed(_ sender: UISwitch) {
+           UserDefaults.standard.set(sender.isOn, forKey: "switchState")
+       }
     
     //MARK: - Ganti nama button, func dan alert
     @IBAction func gantinama(_ sender: Any) {
